@@ -9,9 +9,9 @@ let contact = elem.querySelector(".contact");
 header.addEventListener("mouseover", function () {
   hoverFunction(this);
 });
-about.addEventListener("mouseover", function () {
-  hoverFunction(this);
-});
+// about.addEventListener("mouseover", function () {
+//   hoverFunction(this);
+// });
 work.addEventListener("mouseover", function () {
   hoverFunction(this);
 });
@@ -19,9 +19,9 @@ contact.addEventListener("mouseover", function () {
   hoverFunction(this);
 });
 
-about.addEventListener("mouseout", function () {
-  hoverOff(this);
-});
+// about.addEventListener("mouseout", function () {
+//   hoverOff(this);
+// });
 work.addEventListener("mouseout", function () {
   hoverOff(this);
 });
@@ -49,14 +49,14 @@ function hoverFunction(elem) {
       body.style.backgroundColor = "#f3eccd";
       header.style.color = "#42544b";
       link.forEach((links) => (links.style.color = "#42544b"));
-      about.style.opacity = 0.5;
+      // about.style.opacity = 0.5;
       contact.style.opacity = 0.5;
       break;
     case elem.classList.contains("contact"):
       body.style.backgroundColor = "#795528";
       header.style.color = "#f3d7a4";
       link.forEach((links) => (links.style.color = "#f3d7a4"));
-      about.style.opacity = 0.5;
+      // about.style.opacity = 0.5;
       work.style.opacity = 0.5;
       break;
   }
@@ -69,11 +69,11 @@ function hoverOff(elem) {
       contact.style.opacity = 1;
       break;
     case elem.classList.contains("work"):
-      about.style.opacity = 1;
+      // about.style.opacity = 1;
       contact.style.opacity = 1;
       break;
     case elem.classList.contains("contact"):
-      about.style.opacity = 1;
+      // about.style.opacity = 1;
       work.style.opacity = 1;
       break;
   }
