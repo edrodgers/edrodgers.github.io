@@ -78,3 +78,15 @@ function hoverOff(elem) {
       break;
   }
 }
+
+// gsap.from("main", { opacity: 0, duration: 1, y: -50 });
+// var tl = new TimelineLite(),
+//   mySplitText = new SplitText(".work", { type: "chars" });
+// chars = mySplitText.chars;
+
+// tl.staggerFrom(
+//   chars,
+//   1,
+//   { opacity: 0, y: 80, ease: AudioBufferSourceNode.easeOut },
+//   0.4
+// );
