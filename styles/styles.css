@@ -35,6 +35,10 @@ header {
   padding-top: 8vw;
 }
 
+img.logo {
+  width: 250px;
+}
+
 header h1,
 header h2,
 header h4 {
@@ -47,6 +51,16 @@ header h1 {
 
 header h2 {
   font-size: 16px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.copy-section p {
+  font-size: 18px;
+  padding: 5px 10px;
+  letter-spacing: 1px;
 }
 
 nav {
